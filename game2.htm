@@ -1,0 +1,940 @@
+﻿
+<html>
+
+<head>
+<link rel="Shortcut Icon" 
+      type="image/x-icon" 
+      href="fav.ico" />
+      
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Game 2</title>
+<base target="_self" />
+
+<style type="text/css">
+body         { font-family: Arial; }
+textarea     { font-family: Arial; }
+table        { font-family: Arial; }
+td           { font-family: Arial; }
+img          { border : 0; }
+</style>
+
+<script type="text/javascript" src="board2.js"></script>
+<script type="text/javascript" language="JavaScript">
+ function changegame(game_nb)
+ {
+   if (parent) {
+   if (parent.MoveList) {
+   if (parent.MoveList.location) {
+     parent.MoveList.location = "movelist"+game_nb+".htm";
+   }}}
+   
+   if (parent) {
+   if (parent.header) {
+   if (parent.header.D1) {
+     parent.header.D1.selectedIndex = game_nb;
+   }}}
+ }
+</script>
+</head>
+<body link="000000" vlink="000000" alink="000000" bgcolor="#FFFFFF" text="000000" onload="changegame(2)">
+
+<script type="text/javascript" >
+dtPath="boardcolor/"
+</script>
+
+
+<table width="100%">
+  <tr>
+    <td width="15%"><a href="game1.htm">Previous Game</a></td>
+    <td width="70%" style="text-align:center"><b><font face="Century Gothic" size="6">Game 2</font></b></td>
+    <td width="15%"><a href="game3.htm">Next Game</a></td>
+  </tr>
+</table>
+
+<p align='center'>
+
+
+&nbsp;<a href="1000GameDataset.mat"><font size="-2">Click here to download the session</font></a>
+
+
+&nbsp;<a href="1000GameDataset.xg"><font size="-2">Click here to download the session (XG format)</font></a>
+
+</p>
+<p align="center"><b><font face="Century Gothic" size="4">Unlimited Game, Score is
+  <img alt="" border="0" src="w.png" width="17" height="17" style="vertical-align: middle;"/> Player 1: 2, 
+  <img alt="" border="0" src="b.png" width="17" height="17" style="vertical-align: middle;"/> Player 2: 0 </font></b></p>
+
+
+<p><b><font face="Century Gothic">Quick Summary:</font></b><br/></p>
+
+<table border="1" cellpadding="0" cellspacing="0" style="border-collapse: collapse; border-color:#111111" width="700">
+  <tr style="height:22">
+    <td width="33%" align="center" bgcolor="FFCC99">
+    Player 1&nbsp;<img alt="" border="0" src="w.png" width="17" height="17" style="vertical-align: middle;"/></td>
+    <td width="33%" align="center" bgcolor="FFCC99">
+    Category</td>
+    <td width="34%" align="center" bgcolor="FFCC99">
+    Player 2&nbsp;<img alt="" border="0" src="b.png" width="17" height="17" style="vertical-align: middle;"/></td>
+  </tr>
+  <tr style="height:22">
+    <td width="33%" align="center" bgcolor="FFFFCC">World Champ. (+0.0000)</td>
+    <td width="33%" align="center" bgcolor="FFCC99">Total Error</td>
+    <td width="34%" align="center" bgcolor="FFFFCC">World Champ. (-0.0005)</td>
+  </tr>
+  <tr style="height:">
+    <td width="33%" align="center" bgcolor="FFFFCC">World Champ. (+0.0000)</td>
+    <td width="33%" align="center" bgcolor="FFCC99">Checker Play</td>
+    <td width="34%" align="center" bgcolor="FFFFCC">World Champ. (-0.0005)</td>
+  </tr>
+  <tr style="height:22">
+    <td width="33%" align="center" bgcolor="FFFFCC">World Champ. (+0.0000)</td>
+    <td width="33%" align="center" bgcolor="FFCC99">Cube Play</td>
+    <td width="34%" align="center" bgcolor="FFFFCC">World Champ. (+0.0000)</td>
+  </tr>
+  <tr style="height:22">
+    <td width="33%" align="center" bgcolor="FFFFCC">0.00</td>
+    <td width="33%" align="center" bgcolor="FFCC99">Performance Rating</td>
+    <td width="34%" align="center" bgcolor="FFFFCC">0.24</td>
+  </tr>
+</table>
+
+<br/>
+
+<table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; border-color:#111111">
+
+  <tr style="height:22">
+   <td colspan="3"><img src="w.png" style="width:18; height:18; vertical-align:middle;" alt=""/>&nbsp;<font color="#000000"><b>52: 24/22 13/8</b></font>&nbsp; <a name="33"></a></td>
+  </tr>
+  <tr>
+   <td width="330" align="left" valign="top"></td>
+   <td width="10" align="left" valign="top">&nbsp;</td>
+   <td valign="top"><table cellspacing="0" cellpadding="0" align="center" style="padding:0; border-spacing:0; margin-left:auto; margin-right:auto;border-width:0;font-family: Arial, Helvetica, sans-serif;font-size:8pt">
+<tr style="background-color:#FFCC99; font-size:10pt">
+<td style="padding:0;margin:0;width:35px"> 1.<img src="p.png" alt="played" /></td><td style="padding:0;margin:0;width:100px">Book<sup>1</sup></td><td style="padding:0;margin:0;width:285px">24/22 13/8</td><td style="padding:0;margin:0;width:150px">eq: +0.006</td>
+</tr>
+<tr style="background-color:#FFFFCC">
+<td></td><td colspan="3"><table style="padding:0; border-spacing:0; margin-left:auto; margin-right:auto;border-width:0;border-collapse: collapse;font-family: Arial, Helvetica, sans-serif;font-size:8pt"><tr><td style="padding:0;margin:0;width:75px">Player:<br />Opponent:</td><td style="padding:0;margin:0;width:190px">50.07% (G:13.68% B:0.65%)<br />49.93% (G:13.44% B:0.51%)</td><td style="padding:0;margin:0;width:270px">Conf.: &plusmn; 0.003 (+0.003...+0.008)</td></tr></table></td>
+</tr>
+<tr><td colspan="4">&nbsp;</td></tr>
+<tr style="background-color:#FFCC99"><td colspan="4">
+<sup>1</sup> Generated by Neil Kazaross on 1/5/2011 using eXtreme Gammon 2.00<br />  28512 Games rolled with Variance Reduction.<br />  Dice Seed: 29794098<br />  Moves and cube decisions: XG Roller+<br />
+</td></tr>
+</table>
+</td>
+  </tr>
+  <tr>
+   <td colspan="3"></td>
+  </tr>
+
+  <tr style="height:22">
+   <td colspan="3"><img src="b.png" style="width:18; height:18; vertical-align:middle;" alt=""/>&nbsp;<font color="#000000"><b>22: 13/11(2) 6/4(2)</b></font>&nbsp; <a name="34"></a></td>
+  </tr>
+  <tr>
+   <td width="330" align="left" valign="top"></td>
+   <td width="10" align="left" valign="top">&nbsp;</td>
+   <td valign="top"></td>
+  </tr>
+  <tr>
+   <td colspan="3"></td>
+  </tr>
+
+  <tr style="height:22">
+   <td colspan="3"><img src="w.png" style="width:18; height:18; vertical-align:middle;" alt=""/>&nbsp;<font color="#000000"><b>31: 8/5 6/5</b></font>&nbsp; <a name="35"></a></td>
+  </tr>
+  <tr>
+   <td width="330" align="left" valign="top"></td>
+   <td width="10" align="left" valign="top">&nbsp;</td>
+   <td valign="top"><table cellspacing="0" cellpadding="0" align="center" style="padding:0; border-spacing:0; margin-left:auto; margin-right:auto;border-width:0;font-family: Arial, Helvetica, sans-serif;font-size:8pt">
+<tr style="background-color:#FFCC99; font-size:10pt">
+<td style="padding:0;margin:0;width:35px"> 1.<img src="p.png" alt="played" /></td><td style="padding:0;margin:0;width:100px">3-ply</td><td style="padding:0;margin:0;width:285px">8/5 6/5</td><td style="padding:0;margin:0;width:150px">eq: -0.046</td>
+</tr>
+<tr style="background-color:#FFFFCC">
+<td></td><td colspan="3"><table style="padding:0; border-spacing:0; margin-left:auto; margin-right:auto;border-width:0;border-collapse: collapse;font-family: Arial, Helvetica, sans-serif;font-size:8pt"><tr><td style="padding:0;margin:0;width:75px">Player:<br />Opponent:</td><td style="padding:0;margin:0;width:190px">48.73% (G:14.03% B:0.68%)<br />51.27% (G:14.66% B:0.51%)</td><td style="padding:0;margin:0;width:270px"></td></tr></table></td>
+</tr>
+</table>
+</td>
+  </tr>
+  <tr>
+   <td colspan="3"></td>
+  </tr>
+
+  <tr style="height:22">
+   <td colspan="3"><img src="b.png" style="width:18; height:18; vertical-align:middle;" alt=""/>&nbsp;<font color="#000000"><b>63: 11/5 8/5</b></font>&nbsp; <a name="36"></a></td>
+  </tr>
+  <tr>
+   <td width="330" align="left" valign="top"></td>
+   <td width="10" align="left" valign="top">&nbsp;</td>
+   <td valign="top"></td>
+  </tr>
+  <tr>
+   <td colspan="3"></td>
+  </tr>
+
+  <tr style="height:22">
+   <td colspan="3"><img src="w.png" style="width:18; height:18; vertical-align:middle;" alt=""/>&nbsp;<font color="#000000"><b>43: 13/9 8/5</b></font>&nbsp; <a name="37"></a></td>
+  </tr>
+  <tr>
+   <td width="330" align="left" valign="top"></td>
+   <td width="10" align="left" valign="top">&nbsp;</td>
+   <td valign="top"><table cellspacing="0" cellpadding="0" align="center" style="padding:0; border-spacing:0; margin-left:auto; margin-right:auto;border-width:0;font-family: Arial, Helvetica, sans-serif;font-size:8pt">
+<tr style="background-color:#FFCC99; font-size:10pt">
+<td style="padding:0;margin:0;width:35px"> 1.<img src="p.png" alt="played" /></td><td style="padding:0;margin:0;width:100px">4-ply</td><td style="padding:0;margin:0;width:285px">13/9 8/5</td><td style="padding:0;margin:0;width:150px">eq: -0.418</td>
+</tr>
+<tr style="background-color:#FFFFCC">
+<td></td><td colspan="3"><table style="padding:0; border-spacing:0; margin-left:auto; margin-right:auto;border-width:0;border-collapse: collapse;font-family: Arial, Helvetica, sans-serif;font-size:8pt"><tr><td style="padding:0;margin:0;width:75px">Player:<br />Opponent:</td><td style="padding:0;margin:0;width:190px">40.42% (G:13.23% B:1.05%)<br />59.58% (G:24.00% B:1.42%)</td><td style="padding:0;margin:0;width:270px"></td></tr></table></td>
+</tr>
+</table>
+</td>
+  </tr>
+  <tr>
+   <td colspan="3"></td>
+  </tr>
+
+  <tr style="height:22">
+   <td colspan="3"><img src="b.png" style="width:18; height:18; vertical-align:middle;" alt=""/>&nbsp;<font color="#000000"><b>31: 24/23 6/3* </b></font>&nbsp; <a name="38"></a></td>
+  </tr>
+  <tr>
+   <td width="330" align="left" valign="top"></td>
+   <td width="10" align="left" valign="top">&nbsp;</td>
+   <td valign="top"></td>
+  </tr>
+  <tr>
+   <td colspan="3"></td>
+  </tr>
+
+  <tr style="height:22">
+   <td colspan="3"><img src="w.png" style="width:18; height:18; vertical-align:middle;" alt=""/>&nbsp;<font color="#000000"><b>65: Cannot Move</b></font>&nbsp; <a name="39"></a></td>
+  </tr>
+  <tr>
+   <td width="330" align="left" valign="top"></td>
+   <td width="10" align="left" valign="top">&nbsp;</td>
+   <td valign="top"><table cellspacing="0" cellpadding="0" align="center" style="padding:0; border-spacing:0; margin-left:auto; margin-right:auto;border-width:0;font-family: Arial, Helvetica, sans-serif;font-size:8pt">
+<tr style="background-color:#FFCC99; font-size:10pt">
+<td style="padding:0;margin:0;width:35px"> 1.<img src="p.png" alt="played" /></td><td style="padding:0;margin:0;width:100px">4-ply</td><td style="padding:0;margin:0;width:285px">Cannot Move</td><td style="padding:0;margin:0;width:150px">eq: -0.947</td>
+</tr>
+<tr style="background-color:#FFFFCC">
+<td></td><td colspan="3"><table style="padding:0; border-spacing:0; margin-left:auto; margin-right:auto;border-width:0;border-collapse: collapse;font-family: Arial, Helvetica, sans-serif;font-size:8pt"><tr><td style="padding:0;margin:0;width:75px">Player:<br />Opponent:</td><td style="padding:0;margin:0;width:190px">32.72% (G:9.18% B:0.60%)<br />67.28% (G:32.17% B:1.96%)</td><td style="padding:0;margin:0;width:270px"></td></tr></table></td>
+</tr>
+</table>
+</td>
+  </tr>
+  <tr>
+   <td colspan="3"></td>
+  </tr>
+
+  <tr style="height:22">
+   <td colspan="3"><img src="b.png" style="width:18; height:18; vertical-align:middle;" alt=""/>&nbsp;<font color="#000000"><b>Double/Take</b></font>&nbsp; <a name="40"></a></td>
+  </tr>
+  <tr>
+   <td width="330" align="left" valign="top"></td>
+   <td width="10" align="left" valign="top">&nbsp;</td>
+   <td valign="top"><table cellspacing="0" cellpadding="0" align="center" style="padding:0; border-spacing:0; margin-left:auto; margin-right:auto;border-width:0;font-family: Arial, Helvetica, sans-serif;font-size:8pt">
+<tr style="background-color:#FFCC99; font-size:10pt">
+  <td width="190">Analyzed in 4-ply</td>
+  <td width="190">No double</td>
+  <td width="190">Double/Take</td>
+</tr>
+<tr style="background-color:#FFFFCC">
+  <td width="190">&nbsp;&nbsp;Player Winning Chances:</td>
+  <td width="190">67.39% (G:31.88% B:2.14%)</td>
+  <td width="190">67.28% (G:32.17% B:1.96%)</td>
+</tr>
+<tr style="background-color:#FFFFCC">
+  <td width="190">&nbsp;&nbsp;Opponent Winning Chances:</td>
+  <td width="190">32.61% (G:9.46% B:0.67%)</td>
+  <td width="190">32.72% (G:9.18% B:0.60%)</td>
+</tr>
+<tr style="background-color:#FFFFCC">
+  <td width="190">&nbsp;&nbsp;Cubeless Equities</td>
+  <td width="190">+0.587</td>
+  <td width="190">+1.178</td>
+</tr>
+<tr style="background-color:#FFCC99; font-size:10pt"><td colspan="3">Cubeful Equities</td></tr>
+<tr style="background-color:#FFFFCC; font-size:12pt"><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No double:</td><td>+0.745 (-0.202)</td><td></td></tr>
+<tr style="background-color:#FFFFCC; font-size:12pt"><td><img src="p.png" alt="played" />&nbsp;Double/Take:</td><td>+0.947</td><td></td></tr>
+<tr style="background-color:#FFFFCC; font-size:12pt"><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Double/Pass:</td><td colspan="2">+1.000 (+0.053)</td></tr>
+<tr style="background-color:#FFFFCC"><td colspan="3">&nbsp;</td></tr>
+<tr style="background-color:#FFFFCC; font-size:12pt; margin-left:auto; margin-right:auto;"><td colspan="3">Best Cube action: Double / Take</td></tr>
+</table>
+</td>
+  </tr>
+  <tr>
+   <td colspan="3"></td>
+  </tr>
+
+  <tr style="height:22">
+   <td colspan="3"><img src="b.png" style="width:18; height:18; vertical-align:middle;" alt=""/>&nbsp;<font color="#000000"><b>42: 11/7 3/1* </b></font>&nbsp; <a name="41"></a></td>
+  </tr>
+  <tr>
+   <td width="330" align="left" valign="top"></td>
+   <td width="10" align="left" valign="top">&nbsp;</td>
+   <td valign="top"></td>
+  </tr>
+  <tr>
+   <td colspan="3"></td>
+  </tr>
+
+  <tr style="height:22">
+   <td colspan="3"><img src="w.png" style="width:18; height:18; vertical-align:middle;" alt=""/>&nbsp;<font color="#000000"><b>66: Cannot Move</b></font>&nbsp; <a name="42"></a></td>
+  </tr>
+  <tr>
+   <td width="330" align="left" valign="top"></td>
+   <td width="10" align="left" valign="top">&nbsp;</td>
+   <td valign="top"><table cellspacing="0" cellpadding="0" align="center" style="padding:0; border-spacing:0; margin-left:auto; margin-right:auto;border-width:0;font-family: Arial, Helvetica, sans-serif;font-size:8pt">
+<tr style="background-color:#FFCC99; font-size:10pt">
+<td style="padding:0;margin:0;width:35px"> 1.<img src="p.png" alt="played" /></td><td style="padding:0;margin:0;width:100px">4-ply</td><td style="padding:0;margin:0;width:285px">Cannot Move</td><td style="padding:0;margin:0;width:150px">eq: -0.741</td>
+</tr>
+<tr style="background-color:#FFFFCC">
+<td></td><td colspan="3"><table style="padding:0; border-spacing:0; margin-left:auto; margin-right:auto;border-width:0;border-collapse: collapse;font-family: Arial, Helvetica, sans-serif;font-size:8pt"><tr><td style="padding:0;margin:0;width:75px">Player:<br />Opponent:</td><td style="padding:0;margin:0;width:190px">28.30% (G:7.15% B:0.44%)<br />71.70% (G:46.13% B:2.15%)</td><td style="padding:0;margin:0;width:270px"></td></tr></table></td>
+</tr>
+</table>
+</td>
+  </tr>
+  <tr>
+   <td colspan="3"></td>
+  </tr>
+
+  <tr style="height:22">
+   <td colspan="3"><img src="b.png" style="width:18; height:18; vertical-align:middle;" alt=""/>&nbsp;<font color="#000000"><b>62: 23/21 7/1</b></font>&nbsp; <a name="43"></a></td>
+  </tr>
+  <tr>
+   <td width="330" align="left" valign="top"></td>
+   <td width="10" align="left" valign="top">&nbsp;</td>
+   <td valign="top"></td>
+  </tr>
+  <tr>
+   <td colspan="3"></td>
+  </tr>
+
+  <tr style="height:22">
+   <td colspan="3"><img src="w.png" style="width:18; height:18; vertical-align:middle;" alt=""/>&nbsp;<font color="#000000"><b>61: Cannot Move</b></font>&nbsp; <a name="44"></a></td>
+  </tr>
+  <tr>
+   <td width="330" align="left" valign="top"></td>
+   <td width="10" align="left" valign="top">&nbsp;</td>
+   <td valign="top"><table cellspacing="0" cellpadding="0" align="center" style="padding:0; border-spacing:0; margin-left:auto; margin-right:auto;border-width:0;font-family: Arial, Helvetica, sans-serif;font-size:8pt">
+<tr style="background-color:#FFCC99; font-size:10pt">
+<td style="padding:0;margin:0;width:35px"> 1.<img src="p.png" alt="played" /></td><td style="padding:0;margin:0;width:100px">4-ply</td><td style="padding:0;margin:0;width:285px">Cannot Move</td><td style="padding:0;margin:0;width:150px">eq: -1.071</td>
+</tr>
+<tr style="background-color:#FFFFCC">
+<td></td><td colspan="3"><table style="padding:0; border-spacing:0; margin-left:auto; margin-right:auto;border-width:0;border-collapse: collapse;font-family: Arial, Helvetica, sans-serif;font-size:8pt"><tr><td style="padding:0;margin:0;width:75px">Player:<br />Opponent:</td><td style="padding:0;margin:0;width:190px">21.25% (G:4.28% B:0.25%)<br />78.75% (G:58.92% B:2.71%)</td><td style="padding:0;margin:0;width:270px"></td></tr></table></td>
+</tr>
+</table>
+</td>
+  </tr>
+  <tr>
+   <td colspan="3"></td>
+  </tr>
+
+  <tr style="height:22">
+   <td colspan="3"><img src="b.png" style="width:18; height:18; vertical-align:middle;" alt=""/>&nbsp;<font color="#000000"><b>61: 13/6</b></font>&nbsp; <a name="45"></a></td>
+  </tr>
+  <tr>
+   <td width="330" align="left" valign="top"></td>
+   <td width="10" align="left" valign="top">&nbsp;</td>
+   <td valign="top"></td>
+  </tr>
+  <tr>
+   <td colspan="3"></td>
+  </tr>
+
+  <tr style="height:22">
+   <td colspan="3"><img src="w.png" style="width:18; height:18; vertical-align:middle;" alt=""/>&nbsp;<font color="#000000"><b>42: Bar/23</b></font>&nbsp; <a name="46"></a></td>
+  </tr>
+  <tr>
+   <td width="330" align="left" valign="top"></td>
+   <td width="10" align="left" valign="top">&nbsp;</td>
+   <td valign="top"><table cellspacing="0" cellpadding="0" align="center" style="padding:0; border-spacing:0; margin-left:auto; margin-right:auto;border-width:0;font-family: Arial, Helvetica, sans-serif;font-size:8pt">
+<tr style="background-color:#FFCC99; font-size:10pt">
+<td style="padding:0;margin:0;width:35px"> 1.<img src="p.png" alt="played" /></td><td style="padding:0;margin:0;width:100px">3-ply Red</td><td style="padding:0;margin:0;width:285px">Bar/23</td><td style="padding:0;margin:0;width:150px">eq: -0.988</td>
+</tr>
+<tr style="background-color:#FFFFCC">
+<td></td><td colspan="3"><table style="padding:0; border-spacing:0; margin-left:auto; margin-right:auto;border-width:0;border-collapse: collapse;font-family: Arial, Helvetica, sans-serif;font-size:8pt"><tr><td style="padding:0;margin:0;width:75px">Player:<br />Opponent:</td><td style="padding:0;margin:0;width:190px">23.18% (G:4.95% B:0.28%)<br />76.82% (G:56.07% B:2.45%)</td><td style="padding:0;margin:0;width:270px"></td></tr></table></td>
+</tr>
+</table>
+</td>
+  </tr>
+  <tr>
+   <td colspan="3"></td>
+  </tr>
+
+  <tr style="height:22">
+   <td colspan="3"><img src="b.png" style="width:18; height:18; vertical-align:middle;" alt=""/>&nbsp;<font color="#000000"><b>52: 21/16* 16/14</b></font>&nbsp; <a name="47"></a></td>
+  </tr>
+  <tr>
+   <td width="330" align="left" valign="top"></td>
+   <td width="10" align="left" valign="top">&nbsp;</td>
+   <td valign="top"></td>
+  </tr>
+  <tr>
+   <td colspan="3"></td>
+  </tr>
+
+  <tr style="height:22">
+   <td colspan="3"><img src="w.png" style="width:18; height:18; vertical-align:middle;" alt=""/>&nbsp;<font color="#000000"><b>43: Bar/22</b></font>&nbsp; <a name="48"></a></td>
+  </tr>
+  <tr>
+   <td width="330" align="left" valign="top"></td>
+   <td width="10" align="left" valign="top">&nbsp;</td>
+   <td valign="top"><table cellspacing="0" cellpadding="0" align="center" style="padding:0; border-spacing:0; margin-left:auto; margin-right:auto;border-width:0;font-family: Arial, Helvetica, sans-serif;font-size:8pt">
+<tr style="background-color:#FFCC99; font-size:10pt">
+<td style="padding:0;margin:0;width:35px"> 1.<img src="p.png" alt="played" /></td><td style="padding:0;margin:0;width:100px">3-ply Red</td><td style="padding:0;margin:0;width:285px">Bar/22</td><td style="padding:0;margin:0;width:150px">eq: -0.973</td>
+</tr>
+<tr style="background-color:#FFFFCC">
+<td></td><td colspan="3"><table style="padding:0; border-spacing:0; margin-left:auto; margin-right:auto;border-width:0;border-collapse: collapse;font-family: Arial, Helvetica, sans-serif;font-size:8pt"><tr><td style="padding:0;margin:0;width:75px">Player:<br />Opponent:</td><td style="padding:0;margin:0;width:190px">23.20% (G:4.94% B:0.30%)<br />76.80% (G:54.77% B:2.38%)</td><td style="padding:0;margin:0;width:270px"></td></tr></table></td>
+</tr>
+</table>
+</td>
+  </tr>
+  <tr>
+   <td colspan="3"></td>
+  </tr>
+
+  <tr style="height:22">
+   <td colspan="3"><img src="b.png" style="width:18; height:18; vertical-align:middle;" alt=""/>&nbsp;<font color="#000000"><b>65: 8/3* 8/2* </b></font>&nbsp; <a name="49"></a></td>
+  </tr>
+  <tr>
+   <td width="330" align="left" valign="top"></td>
+   <td width="10" align="left" valign="top">&nbsp;</td>
+   <td valign="top"></td>
+  </tr>
+  <tr>
+   <td colspan="3"></td>
+  </tr>
+
+  <tr style="height:22">
+   <td colspan="3"><img src="w.png" style="width:18; height:18; vertical-align:middle;" alt=""/>&nbsp;<font color="#000000"><b>61: Cannot Move</b></font>&nbsp; <a name="50"></a></td>
+  </tr>
+  <tr>
+   <td width="330" align="left" valign="top"></td>
+   <td width="10" align="left" valign="top">&nbsp;</td>
+   <td valign="top"><table cellspacing="0" cellpadding="0" align="center" style="padding:0; border-spacing:0; margin-left:auto; margin-right:auto;border-width:0;font-family: Arial, Helvetica, sans-serif;font-size:8pt">
+<tr style="background-color:#FFCC99; font-size:10pt">
+<td style="padding:0;margin:0;width:35px"> 1.<img src="p.png" alt="played" /></td><td style="padding:0;margin:0;width:100px">4-ply</td><td style="padding:0;margin:0;width:285px">Cannot Move</td><td style="padding:0;margin:0;width:150px">eq: -1.511</td>
+</tr>
+<tr style="background-color:#FFFFCC">
+<td></td><td colspan="3"><table style="padding:0; border-spacing:0; margin-left:auto; margin-right:auto;border-width:0;border-collapse: collapse;font-family: Arial, Helvetica, sans-serif;font-size:8pt"><tr><td style="padding:0;margin:0;width:75px">Player:<br />Opponent:</td><td style="padding:0;margin:0;width:190px">11.84% (G:1.97% B:0.11%)<br />88.16% (G:77.21% B:3.79%)</td><td style="padding:0;margin:0;width:270px"></td></tr></table></td>
+</tr>
+</table>
+</td>
+  </tr>
+  <tr>
+   <td colspan="3"></td>
+  </tr>
+
+  <tr style="height:22">
+   <td colspan="3"><img src="b.png" style="width:18; height:18; vertical-align:middle;" alt=""/>&nbsp;<font color="#000000"><b>65: 14/3</b></font>&nbsp; <a name="51"></a></td>
+  </tr>
+  <tr>
+   <td width="330" align="left" valign="top"></td>
+   <td width="10" align="left" valign="top">&nbsp;</td>
+   <td valign="top"></td>
+  </tr>
+  <tr>
+   <td colspan="3"></td>
+  </tr>
+
+  <tr style="height:22">
+   <td colspan="3"><img src="w.png" style="width:18; height:18; vertical-align:middle;" alt=""/>&nbsp;<font color="#000000"><b>54: Cannot Move</b></font>&nbsp; <a name="52"></a></td>
+  </tr>
+  <tr>
+   <td width="330" align="left" valign="top"></td>
+   <td width="10" align="left" valign="top">&nbsp;</td>
+   <td valign="top"><table cellspacing="0" cellpadding="0" align="center" style="padding:0; border-spacing:0; margin-left:auto; margin-right:auto;border-width:0;font-family: Arial, Helvetica, sans-serif;font-size:8pt">
+<tr style="background-color:#FFCC99; font-size:10pt">
+<td style="padding:0;margin:0;width:35px"> 1.<img src="p.png" alt="played" /></td><td style="padding:0;margin:0;width:100px">4-ply</td><td style="padding:0;margin:0;width:285px">Cannot Move</td><td style="padding:0;margin:0;width:150px">eq: -1.745</td>
+</tr>
+<tr style="background-color:#FFFFCC">
+<td></td><td colspan="3"><table style="padding:0; border-spacing:0; margin-left:auto; margin-right:auto;border-width:0;border-collapse: collapse;font-family: Arial, Helvetica, sans-serif;font-size:8pt"><tr><td style="padding:0;margin:0;width:75px">Player:<br />Opponent:</td><td style="padding:0;margin:0;width:190px">6.83% (G:0.74% B:0.03%)<br />93.17% (G:86.84% B:4.49%)</td><td style="padding:0;margin:0;width:270px"></td></tr></table></td>
+</tr>
+</table>
+</td>
+  </tr>
+  <tr>
+   <td colspan="3"></td>
+  </tr>
+
+  <tr style="height:22">
+   <td colspan="3"><img src="b.png" style="width:18; height:18; vertical-align:middle;" alt=""/>&nbsp;<font color="#000000"><b>51: 24/23 13/8</b></font>&nbsp; <a name="53"></a></td>
+  </tr>
+  <tr>
+   <td width="330" align="left" valign="top"></td>
+   <td width="10" align="left" valign="top">&nbsp;</td>
+   <td valign="top"></td>
+  </tr>
+  <tr>
+   <td colspan="3"></td>
+  </tr>
+
+  <tr style="height:22">
+   <td colspan="3"><img src="w.png" style="width:18; height:18; vertical-align:middle;" alt=""/>&nbsp;<font color="#000000"><b>55: Cannot Move</b></font>&nbsp; <a name="54"></a></td>
+  </tr>
+  <tr>
+   <td width="330" align="left" valign="top"></td>
+   <td width="10" align="left" valign="top">&nbsp;</td>
+   <td valign="top"><table cellspacing="0" cellpadding="0" align="center" style="padding:0; border-spacing:0; margin-left:auto; margin-right:auto;border-width:0;font-family: Arial, Helvetica, sans-serif;font-size:8pt">
+<tr style="background-color:#FFCC99; font-size:10pt">
+<td style="padding:0;margin:0;width:35px"> 1.<img src="p.png" alt="played" /></td><td style="padding:0;margin:0;width:100px">4-ply</td><td style="padding:0;margin:0;width:285px">Cannot Move</td><td style="padding:0;margin:0;width:150px">eq: -1.826</td>
+</tr>
+<tr style="background-color:#FFFFCC">
+<td></td><td colspan="3"><table style="padding:0; border-spacing:0; margin-left:auto; margin-right:auto;border-width:0;border-collapse: collapse;font-family: Arial, Helvetica, sans-serif;font-size:8pt"><tr><td style="padding:0;margin:0;width:75px">Player:<br />Opponent:</td><td style="padding:0;margin:0;width:190px">5.10% (G:0.34% B:0.01%)<br />94.90% (G:90.20% B:4.75%)</td><td style="padding:0;margin:0;width:270px"></td></tr></table></td>
+</tr>
+</table>
+</td>
+  </tr>
+  <tr>
+   <td colspan="3"></td>
+  </tr>
+
+  <tr style="height:22">
+   <td colspan="3"><img src="b.png" style="width:18; height:18; vertical-align:middle;" alt=""/>&nbsp;<font color="#000000"><b>65: 23/18 8/2</b></font>&nbsp; <a name="55"></a></td>
+  </tr>
+  <tr>
+   <td width="330" align="left" valign="top"></td>
+   <td width="10" align="left" valign="top">&nbsp;</td>
+   <td valign="top"></td>
+  </tr>
+  <tr>
+   <td colspan="3"></td>
+  </tr>
+
+  <tr style="height:22">
+   <td colspan="3"><img src="w.png" style="width:18; height:18; vertical-align:middle;" alt=""/>&nbsp;<font color="#000000"><b>51: Cannot Move</b></font>&nbsp; <a name="56"></a></td>
+  </tr>
+  <tr>
+   <td width="330" align="left" valign="top"></td>
+   <td width="10" align="left" valign="top">&nbsp;</td>
+   <td valign="top"><table cellspacing="0" cellpadding="0" align="center" style="padding:0; border-spacing:0; margin-left:auto; margin-right:auto;border-width:0;font-family: Arial, Helvetica, sans-serif;font-size:8pt">
+<tr style="background-color:#FFCC99; font-size:10pt">
+<td style="padding:0;margin:0;width:35px"> 1.<img src="p.png" alt="played" /></td><td style="padding:0;margin:0;width:100px">4-ply</td><td style="padding:0;margin:0;width:285px">Cannot Move</td><td style="padding:0;margin:0;width:150px">eq: -1.907</td>
+</tr>
+<tr style="background-color:#FFFFCC">
+<td></td><td colspan="3"><table style="padding:0; border-spacing:0; margin-left:auto; margin-right:auto;border-width:0;border-collapse: collapse;font-family: Arial, Helvetica, sans-serif;font-size:8pt"><tr><td style="padding:0;margin:0;width:75px">Player:<br />Opponent:</td><td style="padding:0;margin:0;width:190px">3.43% (G:0.01% B:0.00%)<br />96.57% (G:93.35% B:5.41%)</td><td style="padding:0;margin:0;width:270px"></td></tr></table></td>
+</tr>
+</table>
+</td>
+  </tr>
+  <tr>
+   <td colspan="3"></td>
+  </tr>
+
+  <tr style="height:22">
+   <td colspan="3"><img src="b.png" style="width:18; height:18; vertical-align:middle;" alt=""/>&nbsp;<font color="#000000"><b>51: 18/13 6/5</b></font>&nbsp; <a name="57"></a></td>
+  </tr>
+  <tr>
+   <td width="330" align="left" valign="top"></td>
+   <td width="10" align="left" valign="top">&nbsp;</td>
+   <td valign="top"></td>
+  </tr>
+  <tr>
+   <td colspan="3"></td>
+  </tr>
+
+  <tr style="height:22">
+   <td colspan="3"><img src="w.png" style="width:18; height:18; vertical-align:middle;" alt=""/>&nbsp;<font color="#000000"><b>52: Cannot Move</b></font>&nbsp; <a name="58"></a></td>
+  </tr>
+  <tr>
+   <td width="330" align="left" valign="top"></td>
+   <td width="10" align="left" valign="top">&nbsp;</td>
+   <td valign="top"><table cellspacing="0" cellpadding="0" align="center" style="padding:0; border-spacing:0; margin-left:auto; margin-right:auto;border-width:0;font-family: Arial, Helvetica, sans-serif;font-size:8pt">
+<tr style="background-color:#FFCC99; font-size:10pt">
+<td style="padding:0;margin:0;width:35px"> 1.<img src="p.png" alt="played" /></td><td style="padding:0;margin:0;width:100px">4-ply</td><td style="padding:0;margin:0;width:285px">Cannot Move</td><td style="padding:0;margin:0;width:150px">eq: -1.907</td>
+</tr>
+<tr style="background-color:#FFFFCC">
+<td></td><td colspan="3"><table style="padding:0; border-spacing:0; margin-left:auto; margin-right:auto;border-width:0;border-collapse: collapse;font-family: Arial, Helvetica, sans-serif;font-size:8pt"><tr><td style="padding:0;margin:0;width:75px">Player:<br />Opponent:</td><td style="padding:0;margin:0;width:190px">3.34% (G:0.00% B:0.00%)<br />96.66% (G:93.42% B:5.11%)</td><td style="padding:0;margin:0;width:270px"></td></tr></table></td>
+</tr>
+</table>
+</td>
+  </tr>
+  <tr>
+   <td colspan="3"></td>
+  </tr>
+
+  <tr style="height:22">
+   <td colspan="3"><img src="b.png" style="width:18; height:18; vertical-align:middle;" alt=""/>&nbsp;<font color="#000000"><b>54: 13/4</b></font>&nbsp; <a name="59"></a></td>
+  </tr>
+  <tr>
+   <td width="330" align="left" valign="top"></td>
+   <td width="10" align="left" valign="top">&nbsp;</td>
+   <td valign="top"></td>
+  </tr>
+  <tr>
+   <td colspan="3"></td>
+  </tr>
+
+  <tr style="height:22">
+   <td colspan="3"><img src="w.png" style="width:18; height:18; vertical-align:middle;" alt=""/>&nbsp;<font color="#000000"><b>66: Cannot Move</b></font>&nbsp; <a name="60"></a></td>
+  </tr>
+  <tr>
+   <td width="330" align="left" valign="top"></td>
+   <td width="10" align="left" valign="top">&nbsp;</td>
+   <td valign="top"><table cellspacing="0" cellpadding="0" align="center" style="padding:0; border-spacing:0; margin-left:auto; margin-right:auto;border-width:0;font-family: Arial, Helvetica, sans-serif;font-size:8pt">
+<tr style="background-color:#FFCC99; font-size:10pt">
+<td style="padding:0;margin:0;width:35px"> 1.<img src="p.png" alt="played" /></td><td style="padding:0;margin:0;width:100px">4-ply</td><td style="padding:0;margin:0;width:285px">Cannot Move</td><td style="padding:0;margin:0;width:150px">eq: -1.919</td>
+</tr>
+<tr style="background-color:#FFFFCC">
+<td></td><td colspan="3"><table style="padding:0; border-spacing:0; margin-left:auto; margin-right:auto;border-width:0;border-collapse: collapse;font-family: Arial, Helvetica, sans-serif;font-size:8pt"><tr><td style="padding:0;margin:0;width:75px">Player:<br />Opponent:</td><td style="padding:0;margin:0;width:190px">2.85% (G:0.00% B:0.00%)<br />97.15% (G:94.00% B:4.64%)</td><td style="padding:0;margin:0;width:270px"></td></tr></table></td>
+</tr>
+</table>
+</td>
+  </tr>
+  <tr>
+   <td colspan="3"></td>
+  </tr>
+
+  <tr style="height:22">
+   <td colspan="3"><img src="b.png" style="width:18; height:18; vertical-align:middle;" alt=""/>&nbsp;<font color="#000000"><b>22: 13/5</b></font>&nbsp; <a name="61"></a></td>
+  </tr>
+  <tr>
+   <td width="330" align="left" valign="top"></td>
+   <td width="10" align="left" valign="top">&nbsp;</td>
+   <td valign="top"></td>
+  </tr>
+  <tr>
+   <td colspan="3"></td>
+  </tr>
+
+  <tr style="height:22">
+   <td colspan="3"><img src="w.png" style="width:18; height:18; vertical-align:middle;" alt=""/>&nbsp;<font color="#000000"><b>53: Cannot Move</b></font>&nbsp; <a name="62"></a></td>
+  </tr>
+  <tr>
+   <td width="330" align="left" valign="top"></td>
+   <td width="10" align="left" valign="top">&nbsp;</td>
+   <td valign="top"><table cellspacing="0" cellpadding="0" align="center" style="padding:0; border-spacing:0; margin-left:auto; margin-right:auto;border-width:0;font-family: Arial, Helvetica, sans-serif;font-size:8pt">
+<tr style="background-color:#FFCC99; font-size:10pt">
+<td style="padding:0;margin:0;width:35px"> 1.<img src="p.png" alt="played" /></td><td style="padding:0;margin:0;width:100px">4-ply</td><td style="padding:0;margin:0;width:285px">Cannot Move</td><td style="padding:0;margin:0;width:150px">eq: -1.921</td>
+</tr>
+<tr style="background-color:#FFFFCC">
+<td></td><td colspan="3"><table style="padding:0; border-spacing:0; margin-left:auto; margin-right:auto;border-width:0;border-collapse: collapse;font-family: Arial, Helvetica, sans-serif;font-size:8pt"><tr><td style="padding:0;margin:0;width:75px">Player:<br />Opponent:</td><td style="padding:0;margin:0;width:190px">2.77% (G:0.00% B:0.00%)<br />97.23% (G:93.93% B:4.64%)</td><td style="padding:0;margin:0;width:270px"></td></tr></table></td>
+</tr>
+</table>
+</td>
+  </tr>
+  <tr>
+   <td colspan="3"></td>
+  </tr>
+
+  <tr style="height:22">
+   <td colspan="3"><img src="b.png" style="width:18; height:18; vertical-align:middle;" alt=""/>&nbsp;<font color="#000000"><b>51: 5/4 5/Off</b></font>&nbsp; <a name="63"></a></td>
+  </tr>
+  <tr>
+   <td width="330" align="left" valign="top"></td>
+   <td width="10" align="left" valign="top">&nbsp;</td>
+   <td valign="top"></td>
+  </tr>
+  <tr>
+   <td colspan="3"></td>
+  </tr>
+
+  <tr style="height:22">
+   <td colspan="3"><img src="w.png" style="width:18; height:18; vertical-align:middle;" alt=""/>&nbsp;<font color="#000000"><b>44: Cannot Move</b></font>&nbsp; <a name="64"></a></td>
+  </tr>
+  <tr>
+   <td width="330" align="left" valign="top"></td>
+   <td width="10" align="left" valign="top">&nbsp;</td>
+   <td valign="top"><table cellspacing="0" cellpadding="0" align="center" style="padding:0; border-spacing:0; margin-left:auto; margin-right:auto;border-width:0;font-family: Arial, Helvetica, sans-serif;font-size:8pt">
+<tr style="background-color:#FFCC99; font-size:10pt">
+<td style="padding:0;margin:0;width:35px"> 1.<img src="p.png" alt="played" /></td><td style="padding:0;margin:0;width:100px">4-ply</td><td style="padding:0;margin:0;width:285px">Cannot Move</td><td style="padding:0;margin:0;width:150px">eq: -1.955</td>
+</tr>
+<tr style="background-color:#FFFFCC">
+<td></td><td colspan="3"><table style="padding:0; border-spacing:0; margin-left:auto; margin-right:auto;border-width:0;border-collapse: collapse;font-family: Arial, Helvetica, sans-serif;font-size:8pt"><tr><td style="padding:0;margin:0;width:75px">Player:<br />Opponent:</td><td style="padding:0;margin:0;width:190px">2.13% (G:0.00% B:0.00%)<br />97.87% (G:95.10% B:5.45%)</td><td style="padding:0;margin:0;width:270px"></td></tr></table></td>
+</tr>
+</table>
+</td>
+  </tr>
+  <tr>
+   <td colspan="3"></td>
+  </tr>
+
+  <tr style="height:22">
+   <td colspan="3"><img src="b.png" style="width:18; height:18; vertical-align:middle;" alt=""/>&nbsp;<font color="#000000"><b>64: 6/2 6/Off</b></font>&nbsp; <a name="65"></a></td>
+  </tr>
+  <tr>
+   <td width="330" align="left" valign="top"></td>
+   <td width="10" align="left" valign="top">&nbsp;</td>
+   <td valign="top"></td>
+  </tr>
+  <tr>
+   <td colspan="3"></td>
+  </tr>
+
+  <tr style="height:22">
+   <td colspan="3"><img src="w.png" style="width:18; height:18; vertical-align:middle;" alt=""/>&nbsp;<font color="#000000"><b>32: Cannot Move</b></font>&nbsp; <a name="66"></a></td>
+  </tr>
+  <tr>
+   <td width="330" align="left" valign="top"></td>
+   <td width="10" align="left" valign="top">&nbsp;</td>
+   <td valign="top"><table cellspacing="0" cellpadding="0" align="center" style="padding:0; border-spacing:0; margin-left:auto; margin-right:auto;border-width:0;font-family: Arial, Helvetica, sans-serif;font-size:8pt">
+<tr style="background-color:#FFCC99; font-size:10pt">
+<td style="padding:0;margin:0;width:35px"> 1.<img src="p.png" alt="played" /></td><td style="padding:0;margin:0;width:100px">4-ply</td><td style="padding:0;margin:0;width:285px">Cannot Move</td><td style="padding:0;margin:0;width:150px">eq: -1.977</td>
+</tr>
+<tr style="background-color:#FFFFCC">
+<td></td><td colspan="3"><table style="padding:0; border-spacing:0; margin-left:auto; margin-right:auto;border-width:0;border-collapse: collapse;font-family: Arial, Helvetica, sans-serif;font-size:8pt"><tr><td style="padding:0;margin:0;width:75px">Player:<br />Opponent:</td><td style="padding:0;margin:0;width:190px">2.13% (G:0.00% B:0.00%)<br />97.87% (G:95.51% B:7.25%)</td><td style="padding:0;margin:0;width:270px"></td></tr></table></td>
+</tr>
+</table>
+</td>
+  </tr>
+  <tr>
+   <td colspan="3"></td>
+  </tr>
+
+  <tr style="height:22">
+   <td colspan="3"><img src="b.png" style="width:18; height:18; vertical-align:middle;" alt=""/>&nbsp;<font color="#000000"><b>55: 5/Off(2) 4/Off(2)</b></font>&nbsp; <a name="67"></a></td>
+  </tr>
+  <tr>
+   <td width="330" align="left" valign="top"></td>
+   <td width="10" align="left" valign="top">&nbsp;</td>
+   <td valign="top"></td>
+  </tr>
+  <tr>
+   <td colspan="3"></td>
+  </tr>
+
+  <tr style="height:22">
+   <td colspan="3"><img src="w.png" style="width:18; height:18; vertical-align:middle;" alt=""/>&nbsp;<font color="#000000"><b>55: Bar/20(2) Bar/15</b></font>&nbsp; <a name="68"></a></td>
+  </tr>
+  <tr>
+   <td width="330" align="left" valign="top"></td>
+   <td width="10" align="left" valign="top">&nbsp;</td>
+   <td valign="top"><table cellspacing="0" cellpadding="0" align="center" style="padding:0; border-spacing:0; margin-left:auto; margin-right:auto;border-width:0;font-family: Arial, Helvetica, sans-serif;font-size:8pt">
+<tr style="background-color:#FFCC99; font-size:10pt">
+<td style="padding:0;margin:0;width:35px"> 1.</td><td style="padding:0;margin:0;width:100px">4-ply</td><td style="padding:0;margin:0;width:285px">Bar/20(3) 13/8</td><td style="padding:0;margin:0;width:150px">eq: -2.000</td>
+</tr>
+<tr style="background-color:#FFFFCC">
+<td></td><td colspan="3"><table style="padding:0; border-spacing:0; margin-left:auto; margin-right:auto;border-width:0;border-collapse: collapse;font-family: Arial, Helvetica, sans-serif;font-size:8pt"><tr><td style="padding:0;margin:0;width:75px">Player:<br />Opponent:</td><td style="padding:0;margin:0;width:190px">0.00% (G:0.00% B:0.00%)<br />100.00% (G:99.97% B:0.00%)</td><td style="padding:0;margin:0;width:270px"></td></tr></table></td>
+</tr>
+<tr style="background-color:#FFCC99; font-size:10pt">
+<td style="padding:0;margin:0;width:35px"> 2.<img src="p.png" alt="played" /></td><td style="padding:0;margin:0;width:100px">4-ply</td><td style="padding:0;margin:0;width:285px">Bar/20(2) Bar/15</td><td style="padding:0;margin:0;width:150px">eq: -2.000</td>
+</tr>
+<tr style="background-color:#FFFFCC">
+<td></td><td colspan="3"><table style="padding:0; border-spacing:0; margin-left:auto; margin-right:auto;border-width:0;border-collapse: collapse;font-family: Arial, Helvetica, sans-serif;font-size:8pt"><tr><td style="padding:0;margin:0;width:75px">Player:<br />Opponent:</td><td style="padding:0;margin:0;width:190px">0.00% (G:0.00% B:0.00%)<br />100.00% (G:99.97% B:0.00%)</td><td style="padding:0;margin:0;width:270px"></td></tr></table></td>
+</tr>
+</table>
+</td>
+  </tr>
+  <tr>
+   <td colspan="3"></td>
+  </tr>
+
+  <tr style="height:22">
+   <td colspan="3"><img src="b.png" style="width:18; height:18; vertical-align:middle;" alt=""/>&nbsp;<font color="#000000"><b>51: 4/Off 1/Off</b></font>&nbsp; <a name="69"></a></td>
+  </tr>
+  <tr>
+   <td width="330" align="left" valign="top"></td>
+   <td width="10" align="left" valign="top">&nbsp;</td>
+   <td valign="top"></td>
+  </tr>
+  <tr>
+   <td colspan="3"></td>
+  </tr>
+
+  <tr style="height:22">
+   <td colspan="3"><img src="w.png" style="width:18; height:18; vertical-align:middle;" alt=""/>&nbsp;<font color="#000000"><b>22: 20/18(2) 8/6(2)</b></font>&nbsp; <a name="70"></a></td>
+  </tr>
+  <tr>
+   <td width="330" align="left" valign="top"></td>
+   <td width="10" align="left" valign="top">&nbsp;</td>
+   <td valign="top"><table cellspacing="0" cellpadding="0" align="center" style="padding:0; border-spacing:0; margin-left:auto; margin-right:auto;border-width:0;font-family: Arial, Helvetica, sans-serif;font-size:8pt">
+<tr style="background-color:#FFCC99; font-size:10pt">
+<td style="padding:0;margin:0;width:35px"> 1.<img src="p.png" alt="played" /></td><td style="padding:0;margin:0;width:100px">4-ply</td><td style="padding:0;margin:0;width:285px">20/18(2) 8/6(2)</td><td style="padding:0;margin:0;width:150px">eq: -2.000</td>
+</tr>
+<tr style="background-color:#FFFFCC">
+<td></td><td colspan="3"><table style="padding:0; border-spacing:0; margin-left:auto; margin-right:auto;border-width:0;border-collapse: collapse;font-family: Arial, Helvetica, sans-serif;font-size:8pt"><tr><td style="padding:0;margin:0;width:75px">Player:<br />Opponent:</td><td style="padding:0;margin:0;width:190px">0.00% (G:0.00% B:0.00%)<br />100.00% (G:99.97% B:0.00%)</td><td style="padding:0;margin:0;width:270px"></td></tr></table></td>
+</tr>
+</table>
+</td>
+  </tr>
+  <tr>
+   <td colspan="3"></td>
+  </tr>
+
+  <tr style="height:22">
+   <td colspan="3"><img src="b.png" style="width:18; height:18; vertical-align:middle;" alt=""/>&nbsp;<font color="#000000"><b>22: 4/Off 2/Off(2)</b></font>&nbsp; <a name="71"></a></td>
+  </tr>
+  <tr>
+   <td width="330" align="left" valign="top"></td>
+   <td width="10" align="left" valign="top">&nbsp;</td>
+   <td valign="top"></td>
+  </tr>
+  <tr>
+   <td colspan="3"></td>
+  </tr>
+
+  <tr style="height:22">
+   <td colspan="3"><img src="w.png" style="width:18; height:18; vertical-align:middle;" alt=""/>&nbsp;<font color="#000000"><b>32: 13/11 13/10</b></font>&nbsp; <a name="72"></a></td>
+  </tr>
+  <tr>
+   <td width="330" align="left" valign="top"></td>
+   <td width="10" align="left" valign="top">&nbsp;</td>
+   <td valign="top"><table cellspacing="0" cellpadding="0" align="center" style="padding:0; border-spacing:0; margin-left:auto; margin-right:auto;border-width:0;font-family: Arial, Helvetica, sans-serif;font-size:8pt">
+<tr style="background-color:#FFCC99; font-size:10pt">
+<td style="padding:0;margin:0;width:35px"> 1.<img src="p.png" alt="played" /></td><td style="padding:0;margin:0;width:100px">4-ply</td><td style="padding:0;margin:0;width:285px">13/11 13/10</td><td style="padding:0;margin:0;width:150px">eq: -2.000</td>
+</tr>
+<tr style="background-color:#FFFFCC">
+<td></td><td colspan="3"><table style="padding:0; border-spacing:0; margin-left:auto; margin-right:auto;border-width:0;border-collapse: collapse;font-family: Arial, Helvetica, sans-serif;font-size:8pt"><tr><td style="padding:0;margin:0;width:75px">Player:<br />Opponent:</td><td style="padding:0;margin:0;width:190px">0.00% (G:0.00% B:0.00%)<br />100.00% (G:99.99% B:0.00%)</td><td style="padding:0;margin:0;width:270px"></td></tr></table></td>
+</tr>
+</table>
+</td>
+  </tr>
+  <tr>
+   <td colspan="3"></td>
+  </tr>
+
+  <tr style="height:22">
+   <td colspan="3"><img src="b.png" style="width:18; height:18; vertical-align:middle;" alt=""/>&nbsp;<font color="#000000"><b>51: 3/Off 1/Off</b></font>&nbsp; <a name="73"></a></td>
+  </tr>
+  <tr>
+   <td width="330" align="left" valign="top"></td>
+   <td width="10" align="left" valign="top">&nbsp;</td>
+   <td valign="top"></td>
+  </tr>
+  <tr>
+   <td colspan="3"></td>
+  </tr>
+
+  <tr style="height:22">
+   <td colspan="3"><img src="w.png" style="width:18; height:18; vertical-align:middle;" alt=""/>&nbsp;<font color="#000000"><b>65: 11/6 10/4</b></font>&nbsp; <a name="74"></a></td>
+  </tr>
+  <tr>
+   <td width="330" align="left" valign="top"></td>
+   <td width="10" align="left" valign="top">&nbsp;</td>
+   <td valign="top"><table cellspacing="0" cellpadding="0" align="center" style="padding:0; border-spacing:0; margin-left:auto; margin-right:auto;border-width:0;font-family: Arial, Helvetica, sans-serif;font-size:8pt">
+<tr style="background-color:#FFCC99; font-size:10pt">
+<td style="padding:0;margin:0;width:35px"> 1.<img src="p.png" alt="played" /></td><td style="padding:0;margin:0;width:100px">3-ply Red</td><td style="padding:0;margin:0;width:285px">11/6 10/4</td><td style="padding:0;margin:0;width:150px">eq: -2.000</td>
+</tr>
+<tr style="background-color:#FFFFCC">
+<td></td><td colspan="3"><table style="padding:0; border-spacing:0; margin-left:auto; margin-right:auto;border-width:0;border-collapse: collapse;font-family: Arial, Helvetica, sans-serif;font-size:8pt"><tr><td style="padding:0;margin:0;width:75px">Player:<br />Opponent:</td><td style="padding:0;margin:0;width:190px">0.01% (G:0.00% B:0.00%)<br />99.99% (G:99.99% B:0.00%)</td><td style="padding:0;margin:0;width:270px"></td></tr></table></td>
+</tr>
+</table>
+</td>
+  </tr>
+  <tr>
+   <td colspan="3"></td>
+  </tr>
+
+  <tr style="height:22">
+   <td colspan="3"><img src="b.png" style="width:18; height:18; vertical-align:middle;" alt=""/>&nbsp;<font color="#000000"><b>11: 3/Off 2/1</b></font>&nbsp; <a name="75"></a></td>
+  </tr>
+  <tr>
+   <td width="330" align="left" valign="top"></td>
+   <td width="10" align="left" valign="top">&nbsp;</td>
+   <td valign="top"></td>
+  </tr>
+  <tr>
+   <td colspan="3"></td>
+  </tr>
+
+  <tr style="height:22">
+   <td colspan="3"><img src="w.png" style="width:18; height:18; vertical-align:middle;" alt=""/>&nbsp;<font color="#000000"><b>51: 13/12 6/1</b></font>&nbsp; <a name="76"></a></td>
+  </tr>
+  <tr>
+   <td width="330" align="left" valign="top"></td>
+   <td width="10" align="left" valign="top">&nbsp;</td>
+   <td valign="top"><table cellspacing="0" cellpadding="0" align="center" style="padding:0; border-spacing:0; margin-left:auto; margin-right:auto;border-width:0;font-family: Arial, Helvetica, sans-serif;font-size:8pt">
+<tr style="background-color:#FFCC99; font-size:10pt">
+<td style="padding:0;margin:0;width:35px"> 1.<img src="p.png" alt="played" /></td><td style="padding:0;margin:0;width:100px">3-ply Red</td><td style="padding:0;margin:0;width:285px">13/12 6/1</td><td style="padding:0;margin:0;width:150px">eq: -2.000</td>
+</tr>
+<tr style="background-color:#FFFFCC">
+<td></td><td colspan="3"><table style="padding:0; border-spacing:0; margin-left:auto; margin-right:auto;border-width:0;border-collapse: collapse;font-family: Arial, Helvetica, sans-serif;font-size:8pt"><tr><td style="padding:0;margin:0;width:75px">Player:<br />Opponent:</td><td style="padding:0;margin:0;width:190px">0.00% (G:0.00% B:0.00%)<br />100.00% (G:100.00% B:0.00%)</td><td style="padding:0;margin:0;width:270px"></td></tr></table></td>
+</tr>
+</table>
+</td>
+  </tr>
+  <tr>
+   <td colspan="3"></td>
+  </tr>
+
+  <tr style="height:22">
+   <td colspan="3"><img src="b.png" style="width:18; height:18; vertical-align:middle;" alt=""/>&nbsp;<font color="#000000"><b>64: 1/Off</b></font>&nbsp; <a name="77"></a></td>
+  </tr>
+  <tr>
+   <td width="330" align="left" valign="top"></td>
+   <td width="10" align="left" valign="top">&nbsp;</td>
+   <td valign="top"></td>
+  </tr>
+  <tr>
+   <td colspan="3"></td>
+  </tr>
+
+  <tr style="height:22">
+   <td colspan="3"><img src="b.png" style="width:18; height:18; vertical-align:middle;" alt=""/>&nbsp;<font color="#000000"><b>Wins a Gammon 4pts.</b></font>&nbsp; <a name="78"></a></td>
+  </tr>
+  <tr>
+   <td width="330" align="left" valign="top"></td>
+   <td width="10" align="left" valign="top">&nbsp;</td>
+   <td valign="top"></td>
+  </tr>
+  <tr>
+   <td colspan="3"></td>
+  </tr>
+
+</table>
+
+
+
+<p><b><font face="Century Gothic">Game Summary:</font></b></p>
+<table border="1" cellpadding="0" cellspacing="0" style="border-collapse: collapse; border-color:#111111" width="700">
+  <tr style="height:22">
+    <td width="33%" align="center" bgcolor="FFCC99">
+    Player 1&nbsp;<img alt="" border="0" src="w.png" width="17" height="17" style="vertical-align: middle;"/></td>
+    <td width="33%" align="center" bgcolor="FFCC99">
+    Category</td>
+    <td width="34%" align="center" bgcolor="FFCC99">
+    Player 2&nbsp;<img alt="" border="0" src="b.png" width="17" height="17" style="vertical-align: middle;"/></td>
+  </tr>
+  <tr style="height:22">
+    <td width="33%" align="center" bgcolor="FFFFCC">0<br/>+0.000</td>
+    <td width="33%" align="center" bgcolor="FFCC99">Move Errors<br/>Equity lost (cost)</td>
+    <td width="34%" align="center" bgcolor="FFFFCC">0<br/>-0.010(-0.019)</td>
+  </tr>
+  <tr style="height:22">
+    <td width="33%" align="center" bgcolor="FFFFCC">0<br/>+0.000</td>
+    <td width="33%" align="center" bgcolor="FFCC99">Double Errors<br/>Equity lost (cost)</td>
+    <td width="34%" align="center" bgcolor="FFFFCC">0<br/>+0.000</td>
+  </tr>
+  <tr style="height:22">
+    <td width="33%" align="center" bgcolor="FFFFCC">0<br/>+0.000</td>
+    <td width="33%" align="center" bgcolor="FFCC99">Take Errors<br/>Equity lost (cost)</td>
+    <td width="34%" align="center" bgcolor="FFFFCC">0<br/>+0.000</td>
+  </tr>
+  <tr style="height:22">
+    <td width="33%" align="center" bgcolor="FFFFCC">0</td>
+    <td width="33%" align="center" bgcolor="FFCC99">Outplays</td>
+    <td width="34%" align="center" bgcolor="FFFFCC">0</td>
+  </tr>
+  <tr style="height:22">
+    <td width="33%" align="center" bgcolor="FFFFCC">0<br/>+0.000</td>
+    <td width="33%" align="center" bgcolor="FFCC99">Total Error<br/>Equity lost (cost)</td>
+    <td width="34%" align="center" bgcolor="FFFFCC">0<br/>-0.010(-0.019)</td>
+  </tr>
+  <tr style="height:22">
+    <td width="33%" align="center" bgcolor="FFFFCC">0<br/>-2.469(-3.964)</td>
+    <td width="33%" align="center" bgcolor="FFCC99">Joker<br/>Luck</td>
+    <td width="34%" align="center" bgcolor="FFFFCC">4<br/>+2.469(+3.964)</td>
+  </tr>
+  <tr style="height:22">
+    <td width="33%" align="center" bgcolor="FFFFCC">World Champ.<br/>0.00</td>
+    <td width="33%" align="center" bgcolor="FFCC99">Level of Play<br/>Performance Rating</td>
+    <td width="34%" align="center" bgcolor="FFFFCC">World Champ.<br/>0.24</td>
+  </tr>
+</table>
+
+
+<table width="100%">
+  <tr>
+    <td width="15%"><a href="game1.htm">Previous Game</a></td>
+    <td width="70%">&nbsp</td>
+    <td width="15%"><a href="game3.htm">Next Game</a></td>
+  </tr>
+</table>
+
+
+<p align="center"><font size="2" face="Century Gothic">
+<a href="legend.htm" target="_blank">Click here for the Legend</a><br/>
+Export made by  <a href="http://www.extremegammon.com" target="_blank">eXtreme Gammon</a> 
+2.10 ©2009-2012 GameSite 2000 Ltd.<br/>
+on 9/10/2025 7:55:50 PM</font></p>
+
+
+</body>
+</html>
